@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto+Mono&display=swap');
+
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto Mono', monospace;
+}
+
+h2{
+    text-align: center;
+    padding: 50px;
+ }
+
+ /*header*/
+
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color:#2f2f2f;
+    align-items:flex-end;
+
+}
+
+header img {
+    display:flex;
+    width: 13% ;
+}
+
+
+
+/*menu-nav*/
+nav{
+    padding: 16px;
+
+}
+
+nav ul{
+    list-style:none;
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    border: 2px solid rgb(151, 29, 29);
+}
+
+nav ul li a{
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+
+/*imagen1 */
+
+.ejemplos-menu{
+    display:flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+ }
+
+ .ejemplos-menu:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+ }
+
+.imagen1{
+    display: flex;
+    width: 46%;
+    transition: 0.4s;
+ }
+.imagen1:hover{
+    width: 50%;
+}
+
+.letra1{
+    display: flex;
+    width: 60%;
+    text-align:center;
+    padding: 50px;
+}
+/*imagen2*/
+
+.ejemplos2-menu{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+ }
+
+.ejemplos2-menu:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+} 
+
+
+.imagen2{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 38%;
+    transition: 0.4s;
+ }
+
+ .imagen2:hover{
+    width: 50%;
+}
+ 
+.letra2{
+    display: flex;
+    flex-direction: center;
+    width: 60%;
+    text-align:center;
+    padding: 50px;
+}
+
+/*imagen3*/
+
+
+ .imagen3{
+    display:flex;
+    width: 46%;
+    transition: 0.4s;
+ }
+
+ .imagen3:hover{
+    width: 50%;
+}
+
+.letra3{
+    display:flex;
+    width: 60%;
+    text-align:center;
+    padding: 50px;
+ 
+}
+/*carousel*/
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    color:rgb(255, 255, 255); 
+}
+
+/*san lorenzo*/
+ .san-lorenzo-menu{
+    display:flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+ }
+
+ .san-lorenzo-menu:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+ }
+
+ .imagen4{
+    display: flex;
+    width: 46%;
+    transition: 0.4s;
+ }
+
+ .imagen4:hover{
+    width: 50%;
+}
+
+.letra4{
+    display: flex;
+    width: 60%;
+    text-align:center;
+    padding: 50px;
+   
+}
+ 
+
+.san-lorenzo-menu1{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+.san-lorenzo-menu1:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.imagen5{
+    display: flex;
+    width: 38%;
+    transition: 0.4s;
+}
+
+.imagen5:hover{
+    width: 50%;
+}
+
+.letra5{
+    display: flex;
+    width: 60%;
+    text-align:center;
+    padding: 50px;
+   
+}
+.mapa-1{
+    width: 100%;
+    height: 300px;
+}
+
+.mapa1{
+     display:flex;
+    flex-direction:center;
+    justify-content:center;
+    align-items:center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+
+
+.mapa1:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+.mapa-2{
+    width: 100%;
+    height: 300px;
+}
+
+.mapa2{
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.mapa2:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+/*video */
+
+.video-1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px ;
+    margin: 12px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.video-1:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+/*turismo*/
+.prin{
+    display: inline-block;
+    text-align:center;
+    padding: 5px;
+}
+
+.grilla {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        'area1 area5 area2'
+        'area4 area3 area6'
+    ;
+    padding: 30px;
+}
+
+
+.caja {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(151, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+.caja img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid rgb(151, 29, 29);
+    gap: 30px;
+    filter:blur(2px);
+    transition: 0.5s;
+}
+
+.caja img:hover{
+    filter: blur(0);
+
+}
+.mapa-cafa-1{
+    width: 100%;
+    height: 300px;
+}
+
+.mapa-cafa{
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.mapa-cafa:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+/*alemaania*/
+.letra-alem{
+    text-align:center;
+    padding: 5px;
+}
+
+.prin1{
+    display: inline-block;
+    text-align:center;
+    padding: 5px;
+}
+
+.mapa-alemania-1{
+    width: 100%;
+    height: 300px;
+}
+.mapa-alemania{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    margin: 9px;
+    background-color:#f7f1e5;
+    gap: 30px;
+    border-radius: 8px;
+}
+
+.mapa-alemania:hover{
+    background-color:rgb(151, 29, 29);
+    box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
+}
+
+/*menu-footer*/
+
+.cards__container {
+    width: 100%;
+    padding: 20px;
+}
+
+.text-body-secondary{
+    color: #000000!important;
+}
+
+/*tablet*/
+
+@media only screen and (max-width:768px){
+
+
+
+    .carousel-inner, .carousel-item, .carousel-item img {
+        height: 400px;
+    }
+
+}
+
+/*tablet*/
+
+@media only screen and (max-width:576px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        height: 86px;
+        margin: 1px;
+    }
+
+    .carousel-inner, .carousel-item, .carousel-item img{
+        height: 400px;
+    }
+
+    .ejemplos-menu{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imagen1:hover {
+        width: 72%;
+    }
+    .letra1 {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .ejemplos2-menu{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imagen2:hover{
+        width: 72%;
+    }
+    .letra2{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .imagen3:hover{
+        width: 72%;
+    }
+    .letra3{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .san-lorenzo-menu{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imagen4:hover{
+        width: 72%;
+
+    }
+    .letra4{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .san-lorenzo-menu1{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .imagen5:hover{
+        width: 72%;
+    }
+    .letra5{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+    .video-1{
+        flex-direction: column;
+    }
+    .container, .container-sm {
+        max-width: 452px;  
+}
+
+@media only screen and (max-width:480px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagen0{
+        display: flex;
+        width: 15%;
+    }
+    }
+    nav{
+       flex-direction: column;
+        padding: 5px;
+        height: 94px;
+        margin: 1px;
+    }
+    .video-1{
+        flex-direction: column;
+    }
+}
