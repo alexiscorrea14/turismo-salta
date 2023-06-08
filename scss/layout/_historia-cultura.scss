@@ -1,0 +1,132 @@
+/*carousel*/
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+
+    .img {
+        height: 700px;
+        object-fit: cover;
+    }
+}
+
+.carousel-caption{
+    color:#ffffff; 
+}
+
+body{
+    color: $light-color;
+
+    h2{
+        text-align: center;
+        padding: 50px;
+    }
+} 
+ /*imagen1 */
+
+.momias-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: $shadow;
+     }
+    .imagen-momias{
+        display: flex;
+        width: 46%;
+        transition: 0.4s;
+    
+        &:hover{
+            width: 50%;
+        }
+     }
+    .letra-momias{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+    
+ }
+/*imagen2*/
+.tren-menu{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-tren{
+        @include flex(row-reverse);
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-tren{
+        @include flex(center);
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+/*imagen3*/
+.vinos-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+    .imagen-vinos{
+        display:flex;
+        width: 46%;
+        transition: 0.4s;
+    
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-vinos{
+        display:flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+/*video */
+.video-salta{
+    @include flex(space-around,center);
+    padding: 12px ;
+    margin: 12px;
+    background-color:$main-color;
+    gap: 30px;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+}

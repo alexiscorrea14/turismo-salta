@@ -11,47 +11,53 @@
    <!-- css -->
    <link rel="stylesheet" href="./estilos/style.css">
    <!-- titulo-->
-   <title>turismo salta la linda</title>
+   <title>INICIO SALTA</title>
 
 </head>
 
 <body> 
  <!-- el menu de navegacion -->
    <header id="header-principal">
-      <img class="imagen0" src="./imagenes/logo.png" alt="logo de la pagina" >
-
-      <nav>
-          <ul>
-             <li><a href="#">INICIO</a></li>
-             <li><a href="./paginas/turismo.html">TURISMO</a></li>
-             <li><a href="./paginas/deportes-extremos.html">DEPORTES EXTREMOS</a.></li>
-             <li><a href="./paginas/historia-cultura.html">HISTORIA Y CULTURA</a></li>
-             <li><a href="./paginas/tradiciones.html">TRADICIONES</a></li>
-        </ul>
-     </nav>
+     <nav class="navbar navbar-expand-lg"  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./imagenes/logo.png" alt="logo de la pagina" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="./index.html">INICIO</a>
+              <a class="nav-link" href="./paginas/turismo.html">TURISMO</a>
+              <a class="nav-link" href="./paginas/deportes-extremos.html">DEPORTES EXTREMOS</a>
+              <a class="nav-link" href="./paginas/historia-cultura.html">HISTORIA Y CULTURA</a>
+              <a class="nav-link" href="./paginas/tradiciones.html">TRADICIONES</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
    </header>
 
  <!--contenido principal de mi html o sitio-->
   
  <main class="main-principal">
-  <section>
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+     <section>
+         <div id="carouselExampleCaptions" class="carousel slide">
+         <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
                 aria-label="Slide 5"></button>
-           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
                 aria-label="Slide 6"></button>
-        </div>
-        <div class="carousel-inner">
+         </div>
+         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="imagenes/cerro-san-bernardo.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
@@ -81,98 +87,98 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="imagenes/teleferico.jpg" class="d-block w-100" alt="...">
+                <img src="imagenes/cafayate.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-block">
                     <h5 class="letras1">HISTORIA Y CULTURA !!</h5>
                     <p class="letras2">LAS MOMIAS,TREN DE LAS NUBES Y VIÑEDOS </p>
                 </div>
             </div>
             <div class="carousel-item">
-              <img src="imagenes/gauchos-portada-5.png" class="d-block w-100" alt="...">
+              <img src="imagenes/gauchos-portada-5.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-block">
                   <h5 class="letras1">TRADICIONES !!</h5>
                   <p class="letras2">TRADICIONES DE LAS CIUDAD DE SALTA</p>
               </div>
           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+         </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+     </section>
 
+     <section>  
+        <h2>Capital !! </h2>
+        <div class="mapa1">
+         <iframe class="mapa-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115903.57686980946!2d-65.51320258067287!3d-24.795906301493467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1682616094849!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-
-       <section class="ejemplos">  
-             <h2>Capital !! </h2>
-
-             <div class="mapa1">
-               <iframe class="mapa-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115903.57686980946!2d-65.51320258067287!3d-24.795906301493467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1682616094849!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           </div>
-
-
-             <div class="ejemplos-menu"> 
-                <img class="imagen1" src="./imagenes/plaza-9-de-julio.jpg" alt="presentacion" width="200" >     
-                  <p class="letra1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod voluptatibus, minima facilis sunt asperiores vitae maiores nobis molestiae ullam unde! Illo tenetur distinctio repellendus, doloremque quasi iste modi vitae exercitationem sed pariatur unde nostrum maxime saepe perferendis officiis sit laborum laudantium explicabo optio fugiat vel aspernatur consequuntur vero. Ipsum, officia.</p>
-              </div>
-         
-                   
-              <div class="ejemplos2-menu" >
-                  <img class="imagen2" src="./imagenes/mercado.jpg" alt="presentacion">
-                   <p class="letra2">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque earum error veniam officia quasi aperiam labore dolor nostrum, maiores illum laborum repellendus rem quisquam perspiciatis omnis architecto enim recusandae pariatur minus libero sunt corporis explicabo ex! Laudantium dicta unde architecto sed, aperiam obcaecati accusantium, officia eligendi ab voluptates illum?
-                    </p>
-               </div> 
+         <div class="nuevedejulio-menu"> 
+             <img class="imagen-nuevedejulio" src="./imagenes/plaza-9-de-julio.jpg" alt="presentacion" width="200" >     
+             <p class="letra-nuevedejulio">La Plaza 9 de Julio es un buen punto para comenzar a descubrir la ciudad de Salta.
+             La Plaza 9 de Julio es el centro neurálgico de la ciudad de Salta. En los alrededores de la plaza late la vida de los salteños y se ubican algunas de las instituciones y edificios históricos más emblemáticos de la ciudad. También se destacan los cafés y confiterías que cuentan con sus mesas en las veredas y son el lugar de encuentro de habitantes locales y turistas. </p>
+         </div>
+              
+         <div class="mercado-menu" >
+             <img class="imagen-mercado" src="./imagenes/mercado.jpg" alt="presentacion">
+             <p class="letra-mercado">El mercado municipal San Miguel es un buen lugar para comer comidas típicas y comprar artesanías. El mercado como otros tantos mercados de Latinoamérica ofrece una amplia gama de productos. En sus puestos se puede comprar frutas, verduras, carnes, hojas de coca, remedios naturales, ropa, celulares, mermeladas y dulces regionales, especies, nueces, vinos pateros,etc.
+             Tiene un sector que funciona como Patio de comida donde al mediodía o a la noche se sirven platos típicos como empanadas, locro, costeletas, humitas y pizzas.
+             Para tener en cuenta:
+             El mercado es un buen lugar para comprar dulces regionales, pimentón, nueces, artesanías y algunos recuerdos.
+             El patio de comidas ofrece platos abundantes a buen precio.
+             </p>
+         </div> 
                 
-              <div class="ejemplos-menu">
+         <div class="parque-menu">
+          <img class="imagen-parque" src="./imagenes/parque-san-martin.jpg" alt="presentacion">
+          <p class="letra-parque"> El Parque San Martín fue creado a fines del siglo XIX y desde sus comienzos fue el paseo elegido por las familias salteñas. El parque ocupa aproximadamente 8 manzanas y finaliza junto al Terminal de micros de la ciudad al pie del Cerro San Bernardo. En el parque se encuentra la estación del teleférico hacia dicho cerro.
+         El parque San Martín tiene un lago artificial donde se alquilan botes para poder recorrerlo. Además hay sectores con feria de libros, venta de artesanías, juegos infantiles y puestos de comidas donde las empanadas son las protagonistas. Los fines de semana hay espectáculos callejeros.
+         También se destaca la importante arboleda que se extiende por todo el parque formada por diferentes especies como lapachos, laureles, palos borrachos, jacarandás.
+         El parque también alberga al Museo de Ciencias Naturales UNAS. Y en la esquina de Av. San Martín y Santa Fe se levanta el monumento a Facundo Zuviría obra de la escultora Lola Mora.</p>
+         </div> 
+     </section>
 
-                  <img class="imagen3" src="./imagenes/parque-san-martin.jpg" alt="presentacion">
-            
-                   <p class="letra3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo, id possimus inventore soluta perspiciatis laudantium neque doloribus commodi quae nisi praesentium culpa eligendi eius exercitationem sapiente laborum architecto totam accusantium in? Consectetur cum magnam ullam quos nemo magni, debitis alias quidem, sequi odit eius hic aspernatur nulla enim incidunt.</p>
+     <section class="san-lorenzo" >
+         <h2>San Lorenzo !!</h2>
+         <div class="mapa2">
+             <iframe class="mapa-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28989.276929479438!2d-65.51428718059806!3d-24.73856345924251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bea845dd26d77%3A0x1a68b3d292cde126!2sSan%20Lorenzo%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1682616389984!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>        
+         </div>
+     </section>
 
-              </div> 
-        </section>
-
-       <section class="san-lorenzo" >
-             <h2>San Lorenzo !!</h2>
-             <div class="mapa2">
-                 <iframe class="mapa-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28989.276929479438!2d-65.51428718059806!3d-24.73856345924251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bea845dd26d77%3A0x1a68b3d292cde126!2sSan%20Lorenzo%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1682616389984!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-
-             <div class="san-lorenzo-menu">
-                 <img class="imagen4" src="./imagenes/quebrada-de-san-lorenzo.jpg" alt="presentacion">
-                  <p class="letra4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime minima nobis  magni! Nam dicta dolorum aspernatur dolor. Hic error, quas in porro nemo dolorem iusto molestias, odio expedita dolores illum delectus dolore, accusantium amet sequi adipisci neque reiciendis! Officiis, quis veniam. Mollitia minima maiores, quidem explicabo iure est id laudantium!</p>
-             </div>
-            
-             <div class="san-lorenzo-menu1"> 
-                  <img class="imagen5" src="./imagenes/san_lorenzo_salta_2.jpg" alt="presentacion">
-                 <p class="letra5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nostrum quaerat laborum eius officia, ad veniam mollitia, sunt inventore deserunt libero? Libero odit quod alias nostrum dolor id pariatur. In quibusdam consequuntur amet illum similique? Ducimus, voluptatum natus! Impedit aliquam quis pariatur maiores cum fuga tenetur aliquid neque accusamus ad!</p>  
+     <div class="san-lorenzo-menu">
+         <img class="imagen-quebrada" src="./imagenes/quebrada-de-san-lorenzo.jpg" alt="presentacion">
+         <p class="letra-quebrada">San Lorenzo es una hermosa villa veraniega ubicada a solo 10 km. del centro de la ciudad de Salta y a 1450 msnm, está rodeada por cordones montañosos precordilleranos y dentro del fértil Valle de Lerma.
+         Tiene un río de aguas cristalinas, que baja de las montañas, y bosques de vegetación exuberante hace que este lugar dé la sensación de estar en una selva y en realidad es una selava conocida como selva montana , tiene un microclima propio que le confiere un aire fresco permanente, perteneciente al tipo de bosque subtropical.
          
-             </div>
+     </div>
+            
+     <div class="san-lorenzo-paseo"> 
+         <img class="imagen-paseo" src="./imagenes/san_lorenzo_salta_2.jpg" alt="presentacion">
+         <p class="letra-paseo">  Algunas de las atracciones destacadas son en San Lorenzo, localidad veraniega con añosos árboles, ideal para caminatas, y cabalgatas, visitar la Quebrada de San Lorenzo. Ascendiendo el faldeo del cerro San Lorenzo, se tiene un amplio panorama de Salta y del Valle de Lerma. Las actividades invitan a meterse tierra adentro. En algunos lugares es necesario contar con un guía especializado. Hay lugares predilectos tales como La Quebrada de Arteaga, Potrero Grande y por allí tomamos el camino que te lleva a potrero de Uriburu para llegar a Puerta del Cielo.
+        </p>   
+     </div>
 
-             <section class="video-1">
-
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/jAnqaeyqet8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Gl2xxGmmyr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                
-        </section>
-
-  </main>
+     <section class="video-salta">        
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/jAnqaeyqet8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>       
+         </iframe>
+         <iframe  width="560" height="315" src="https://www.youtube.com/embed/Gl2xxGmmyr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>       
+         </iframe>
+     </section>
+ </main>
 
   <!-- footer = pie de pagina , donde ira logo,redes sociales o algun texto -->
   <footer class="principal-fotter">
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
+     <div class="container">
+         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                 </a>
                 <span class="mb-3 mb-md-0 text-body-secondary">&copy; Derechos Reservados - Alexis Correa</span>
@@ -183,9 +189,9 @@
                 <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
                 <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
             </ul>
-        </footer>
-    </div>
-</footer>
+         </footer>
+     </div>
+ </footer>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 

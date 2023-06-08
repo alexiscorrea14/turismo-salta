@@ -1,0 +1,19 @@
+/*imports base*/
+
+@import "base/vars";
+@import "base/utilities";
+@import "base/reset";
+
+/*imports components */
+
+@import "components/navbar";
+@import "components/footer";
+
+/* imports layout */
+
+@import "layout/index";
+@import "layout/turismo";
+@import "layout/deportes-extremos";
+@import "layout/historia-cultura";
+@import "layout/tradiciones";
+@import "layout/medias";

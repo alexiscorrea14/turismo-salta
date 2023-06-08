@@ -1,0 +1,149 @@
+/*carousel*/
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+
+    .img {
+        height: 700px;
+        object-fit: cover;
+    }
+}
+
+.carousel-caption{
+    color:#ffffff; 
+}
+
+body{
+    color: $light-color;
+
+    h2{
+        text-align: center;
+        padding: 50px;
+    }
+    
+} 
+ /*imagen1 */
+.comparsa-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+     }
+    .imagen-comparsa{
+        display: flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+     }
+    .letra-comparsa{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+/*imagen2*/
+.pachamama-menu{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-pachamama{
+        @include flex(row-reverse);
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-pachamama{
+        @include flex(center);
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+/*imagen3*/
+.milagro-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-milagro{
+        display:flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letramilagro{
+        display:flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }   
+}
+/*imagen4*/
+.balderrama-menu{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-balderrama{
+        @include flex(row-reverse);
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }  
+    }
+    .letra-balderrama{
+        @include flex(center);
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+
+

@@ -1,0 +1,230 @@
+/*carousel*/
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+
+    .img {
+        height: 700px;
+        object-fit: cover;
+    }
+    
+}
+
+.carousel-caption{
+    color:#ffffff; 
+}
+
+body{
+    color: $light-color;
+
+    h2{
+        text-align: center;
+        padding: 50px;
+    }
+    
+} 
+/*imagen1 */
+.nuevedejulio-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+     }
+    .imagen-nuevedejulio{
+        display: flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+     }
+   
+    .letra-nuevedejulio{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }    
+ }
+/*imagen2*/
+.mercado-menu{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-mercado{
+        @include flex(row-reverse);
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        } 
+    }
+    .letra-mercado{
+        @include flex(center);
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+}  
+/*imagen3*/
+.parque-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+    .imagen-parque{
+        display:flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-parque{
+        display:flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+ /*san lorenzo*/
+.san-lorenzo-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+    .imagen-quebrada{
+        display: flex;
+        width: 46%;
+        transition: 0.4s; 
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-quebrada{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+}
+.san-lorenzo-paseo{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+    .imagen-paseo{
+        display: flex;
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-paseo{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+}
+/*mapa*/
+.mapa-1{
+    width: 100%;
+    height: 300px;
+}
+
+.mapa1{
+    @include flex(center,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    border-radius: 8px;
+    
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+}
+
+.mapa-2{
+    width: 100%;
+    height: 300px;
+}
+
+.mapa2{
+    @include flex(center,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+}
+/*videos */
+.video-salta{
+    @include flex(space-around,center);
+    padding: 12px ;
+    margin: 12px;
+    background-color:$main-color;
+    gap: 30px;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+}

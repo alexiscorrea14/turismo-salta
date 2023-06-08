@@ -1,0 +1,132 @@
+/*carousel*/
+.carousel-inner {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+
+    .img {
+        height: 700px;
+        object-fit: cover;
+    }
+}
+
+.carousel-caption{
+    color:#ffffff; 
+}
+
+body{
+    color: $light-color;
+
+    h2{
+        text-align: center;
+        padding: 50px;
+    }
+} 
+/*imagen1 */
+.jumping-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+    .imagen-jumping{
+        display: flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-jumping{
+        display: flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    } 
+ }
+/*imagen2*/
+.rafting-menu{
+    @include flex(row-reverse,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    }
+    .imagen-rafting{
+        @include flex(row-reverse);
+        width: 38%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-rafting{
+        @include flex(center);
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+ }
+/*imagen3*/
+.escalar-menu{
+    @include flex(end,center,center);
+    padding: 9px ;
+    margin: 9px;
+    background-color:$main-color;
+    gap: 30px;
+    transition: 0.4s;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px  $shadow;
+    }
+    .imagen-escalar{
+        display:flex;
+        width: 46%;
+        transition: 0.4s;
+
+        &:hover{
+            width: 50%;
+        }
+    }
+    .letra-escalar{
+        display:flex;
+        width: 60%;
+        text-align:center;
+        padding: 50px;
+    }
+}
+/*video */
+.video-salta{
+    @include flex(space-around,center,center);
+    padding: 12px ;
+    margin: 12px;
+    background-color:$main-color;
+    gap: 30px;
+    border-radius: 8px;
+
+    &:hover{
+        background-color:$bg-color;
+        box-shadow: 4px 4px 4px 4px $shadow;
+    } 
+}
+
+

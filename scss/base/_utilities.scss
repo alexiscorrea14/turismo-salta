@@ -1,0 +1,16 @@
+/*EXTEND*/
+.d-flex {
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*MIXIN CON PARAMETROS*/
+@mixin flexbox($flex-direction,$justify, $align) {
+    display: flex;
+    flex-direction: $flex-direction ;
+    justify-content: $justify;
+    align-items: $align;
+}
+

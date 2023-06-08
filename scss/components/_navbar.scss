@@ -1,0 +1,33 @@
+/*menu nav*/
+
+header {
+    background-color:#000000;
+
+    header img {
+        display:flex;
+        width: 24% ;
+    }
+    .navbar-toggler{
+        color: #ff0000;
+        background-color: #000000;
+        border: var(--bs-border-width) solid #000000;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+    
+        .nav-link{
+            color:#ffffff;
+            font-size: 1.8ram;
+    
+            &:hover{
+                color:#fd0000;
+            }
+        }
+       
+    }
+    
+}
+
+
+
+

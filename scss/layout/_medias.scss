@@ -1,0 +1,1540 @@
+/*tablet*/
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 5.5px;
+        font-weight: bold;
+    } 
+  
+}
+
+@media only screen and (max-width:768px){
+    .carousel-inner, .carousel-item, .carousel-item img {
+        height: 250px;
+    }
+
+    .nuevedejulio-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .mercado-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .parque-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-paseo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .jumping-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .rafting-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .escalar-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .momias-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .tren-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .vinos-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .comparsa-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .pachamama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .milagro-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .balderrama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .video-salta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        border-radius: 8px;
+
+        iframe{
+            width: 700px;
+         }
+    }
+}
+
+@media only screen and (max-width:576px){
+    .carousel-inner, .carousel-item, .carousel-item img {
+        height: 250px;
+    }
+
+    .nuevedejulio-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .mercado-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .parque-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-paseo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .jumping-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .rafting-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .escalar-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .momias-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .tren-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .vinos-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .comparsa-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .pachamama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .milagro-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .balderrama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .video-salta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        border-radius: 8px;
+
+        iframe{
+            width: 500px;
+         }
+            
+    }
+}
+/*movil*/
+@media only screen and (max-width:480px){
+    .carousel-inner, .carousel-item, .carousel-item img {
+        height: 250px;
+    }
+
+    .nuevedejulio-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .mercado-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .parque-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-paseo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .jumping-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .rafting-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .escalar-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .momias-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .tren-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .vinos-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .comparsa-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .pachamama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .milagro-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .balderrama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .video-salta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        border-radius: 8px;
+
+        iframe{
+            width: 400px;
+         }
+            
+    }
+}
+@media only screen and (max-width:320px){
+         
+    .carousel-inner, .carousel-item, .carousel-item img {
+        height: 250px;
+    }
+
+    .nuevedejulio-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .mercado-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .parque-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .san-lorenzo-paseo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .jumping-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .rafting-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .escalar-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .momias-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .tren-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .vinos-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .comparsa-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .pachamama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .milagro-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+    .balderrama-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        transition: 0.4s;
+        border-radius: 8px;
+
+        .imagen{
+            display: flex;
+            width: 70%;
+            transition: 0.4s;
+        }
+        .letra{
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+
+    .video-salta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 9px;
+        margin: 9px;
+        background-color: #f7f1e5;
+        gap: 30px;
+        border-radius: 8px;
+
+        iframe{
+            width: 280px;
+         }
+    }
+}
