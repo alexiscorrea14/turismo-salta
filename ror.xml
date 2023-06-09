@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://alexiscorrea14.github.io/turismo-salta/</title>
+  <link>https://alexiscorrea14.github.io/turismo-salta/</link>
+
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/</link>
+     <title>INICIO SALTA</title>
+     <description>INICIO SALTA</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/index.html</link>
+     <title>INICIO SALTA</title>
+     <description>INICIO SALTA</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/paginas/turismo.html</link>
+     <title>TURISMO</title>
+     <description>TURISMO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/paginas/deportes-extremos.html</link>
+     <title>DEPORTES EXTREMOS</title>
+     <description>DEPORTES EXTREMOS</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/paginas/historia-cultura.html</link>
+     <title>HISTORIA Y CULTURA</title>
+     <description>HISTORIA Y CULTURA</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://alexiscorrea14.github.io/turismo-salta/paginas/tradiciones.html</link>
+     <title>TRADICIONES</title>
+     <description>TRADICIONES</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
