@@ -33,6 +33,11 @@ body{
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: deportes;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
 
     &:hover{
         background-color:$bg-color;
@@ -52,7 +57,18 @@ body{
         width: 60%;
         text-align:center;
         padding: 50px;
-    } 
+    }
+    @keyframes deportes {
+        0% {
+            transform: translateX(-150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+     
  }
 /*imagen2*/
 .rafting-menu{
@@ -63,6 +79,11 @@ body{
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: rafting;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
 
     &:hover{
         background-color:$bg-color;
@@ -83,6 +104,16 @@ body{
         text-align:center;
         padding: 50px;
     }
+    @keyframes rafting {
+        0% {
+            transform: translateX(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
  }
 /*imagen3*/
 .escalar-menu{
@@ -93,6 +124,11 @@ body{
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: deportes;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
 
     &:hover{
         background-color:$bg-color;
@@ -113,6 +149,17 @@ body{
         text-align:center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateX(-150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
 }
 /*video */
 .video-salta{

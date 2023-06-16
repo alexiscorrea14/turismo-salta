@@ -57,6 +57,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: inicio;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .nuevedejulio-menu:hover{
@@ -79,6 +84,17 @@ header img {
     text-align:center;
     padding: 50px;
 }
+@keyframes inicio {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen2*/
 
 .mercado-menu{
@@ -92,6 +108,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: mercado;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .mercado-menu:hover{
@@ -105,7 +126,7 @@ header img {
     flex-direction: row-reverse;
     width: 38%;
     transition: 0.4s;
- }
+}
 
 .imagen-mercado:hover{
     width: 50%;
@@ -117,6 +138,17 @@ header img {
     width: 60%;
     text-align:center;
     padding: 50px;
+}
+
+@keyframes mercado {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /*imagen3*/
@@ -132,6 +164,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: inicio;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .parque-menu:hover{
@@ -156,6 +193,18 @@ header img {
     padding: 50px;
  
 }
+
+@keyframes inicio {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*carousel*/
 .carousel-inner {
     height: 700px;
@@ -186,6 +235,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: inicio;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
  .san-lorenzo-menu:hover{
@@ -210,6 +264,17 @@ header img {
     padding: 50px;
    
 }
+
+@keyframes inicio {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
  
 
 .san-lorenzo-paseo{
@@ -223,6 +288,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: san-lorenzo;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
 }
 
 .san-lorenzo-paseo:hover{
@@ -247,6 +317,18 @@ header img {
     padding: 50px;
    
 }
+
+@keyframes san-lorenzo {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .mapa-1{
     width: 100%;
     height: 300px;
@@ -267,6 +349,7 @@ header img {
     background-color:rgb(151, 29, 29);
     box-shadow: 4px 4px 4px 4px rgb(77, 23, 23);
 }
+
 .mapa-2{
     width: 100%;
     height: 300px;
@@ -416,6 +499,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: tradiciones;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
  .comparsa-menu:hover{
@@ -438,6 +526,18 @@ header img {
     text-align:center;
     padding: 50px;
 }
+
+@keyframes tradiciones {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen2*/
 
 .pachamama-menu{
@@ -451,6 +551,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: pachamama;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .pachamama-menu:hover{
@@ -478,6 +583,17 @@ header img {
     padding: 50px;
 }
 
+@keyframes pachamama {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen3*/
 
 .milagro-menu{
@@ -491,6 +607,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: tradiciones;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .milagro-menu:hover{
@@ -517,6 +638,17 @@ header img {
  
 }
 
+@keyframes tradiciones {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen4*/
 
 .balderrama-menu{
@@ -530,6 +662,13 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    transition: 0.4s;
+    border-radius: 8px;
+    animation-name: balderrama;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .balderrama-menu:hover{
@@ -557,6 +696,16 @@ header img {
     padding: 50px;
 }
 
+@keyframes balderrama {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /*menu-footer*/
 
@@ -583,6 +732,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: deportes;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
  .jumping-menu:hover{
@@ -606,6 +760,17 @@ header img {
     padding: 50px;
 }
 
+@keyframes deportes {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen2*/
 
 .rafting-menu{
@@ -619,6 +784,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: rafting;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .rafting-menu:hover{
@@ -646,6 +816,17 @@ header img {
     padding: 50px;
 }
 
+@keyframes rafting {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen3*/
 
 .escalar-menu{
@@ -659,6 +840,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: deportes;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .escalar-menu:hover{
@@ -682,6 +868,17 @@ header img {
     text-align:center;
     padding: 50px;
  
+}
+
+@keyframes deportes {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /*video */
@@ -716,6 +913,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: historia;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    transform: translateX(0);
  }
 
 .momias-menu:hover{
@@ -739,6 +941,17 @@ header img {
     padding: 50px;
 }
 
+@keyframes historia {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen2*/
 
 .tren-menu{
@@ -752,6 +965,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: tren;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .tren-menu:hover{
@@ -778,6 +996,18 @@ header img {
     text-align:center;
     padding: 50px;
 }
+
+@keyframes tren {
+    0% {
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /*imagen3*/
 
 .vinos-menu{
@@ -791,6 +1021,11 @@ header img {
     gap: 30px;
     transition: 0.4s;
     border-radius: 8px;
+    animation-name: historia;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    transform: translateX(0);
  }
 
 .vinos-menu:hover{
@@ -814,6 +1049,17 @@ header img {
     text-align:center;
     padding: 50px;
  
+}
+
+@keyframes historia {
+    0% {
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /*video */
