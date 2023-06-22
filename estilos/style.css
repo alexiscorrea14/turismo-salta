@@ -1483,6 +1483,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
 
     .imagen-nuevedejulio {
@@ -1496,6 +1501,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .mercado-menu{
         display: flex;
         flex-direction: column;
@@ -1507,6 +1522,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: mercado;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-mercado{
         display: flex;
@@ -1519,6 +1539,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes mercado {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .parque-menu{
         display: flex;
         flex-direction: column;
@@ -1530,6 +1560,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-parque{
         display: flex;
@@ -1542,6 +1577,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .san-lorenzo-menu{
         display: flex;
         flex-direction: column;
@@ -1553,6 +1598,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-quebrada{
         display: flex;
@@ -1565,6 +1615,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .san-lorenzo-paseo{
         display: flex;
         flex-direction: column;
@@ -1576,6 +1636,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: san-lorenzo;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-paseo{
         display: flex;
@@ -1588,6 +1653,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes san-lorenzo {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .jumping-menu{
         display: flex;
         flex-direction: column;
@@ -1599,6 +1674,12 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
+
     }
     .imagen-jumping{
         display: flex;
@@ -1611,6 +1692,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .rafting-menu{
         display: flex;
         flex-direction: column;
@@ -1622,6 +1713,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: rafting;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-rafting{
         display: flex;
@@ -1634,6 +1730,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes rafting {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .escalar-menu{
         display: flex;
         flex-direction: column;
@@ -1645,6 +1751,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-escalar{
         display: flex;
@@ -1657,6 +1768,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .momias-menu{
         display: flex;
         flex-direction: column;
@@ -1668,6 +1789,12 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
+
     }
     .imagen-momias{
         display: flex;
@@ -1680,6 +1807,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .tren-menu{
         display: flex;
         flex-direction: column;
@@ -1691,6 +1828,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tren;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-tren{
         display: flex;
@@ -1703,6 +1845,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tren {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .vinos-menu{
         display: flex;
         flex-direction: column;
@@ -1714,6 +1866,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-vinos{
         display: flex;
@@ -1726,6 +1883,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .comparsa-menu{
         display: flex;
         flex-direction: column;
@@ -1737,6 +1904,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-comparsa{
         display: flex;
@@ -1749,6 +1921,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .pachamama-menu{
         display: flex;
         flex-direction: column;
@@ -1760,6 +1942,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: pachamama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-pachamama{
         display: flex;
@@ -1772,6 +1959,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes pachamama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .milagro-menu{
         display: flex;
         flex-direction: column;
@@ -1783,6 +1980,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-milagro{
         display: flex;
@@ -1795,6 +1997,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }  
     .balderrama-menu{
         display: flex;
         flex-direction: column;
@@ -1806,6 +2018,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: balderrama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-balderrama{
         display: flex;
@@ -1817,6 +2034,16 @@ header img {
         width: 100%;
         text-align: center;
         padding: 50px;
+    }
+    @keyframes balderrama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
     }
 
 
@@ -1856,6 +2083,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
 
     .imagen-nuevedejulio {
@@ -1869,6 +2101,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .mercado-menu{
         display: flex;
         flex-direction: column;
@@ -1880,6 +2122,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: mercado;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0); 
     }
     .imagen-mercado{
         display: flex;
@@ -1892,6 +2139,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes mercado {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .parque-menu{
         display: flex;
         flex-direction: column;
@@ -1903,6 +2160,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-parque{
         display: flex;
@@ -1915,6 +2177,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .san-lorenzo-menu{
         display: flex;
         flex-direction: column;
@@ -1926,6 +2198,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-quebrada{
         display: flex;
@@ -1938,6 +2215,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .san-lorenzo-paseo{
         display: flex;
         flex-direction: column;
@@ -1949,6 +2236,12 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: san-lorenzo;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
+
     }
     .imagen-paseo{
         display: flex;
@@ -1961,6 +2254,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes san-lorenzo {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .jumping-menu{
         display: flex;
         flex-direction: column;
@@ -1972,6 +2275,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-jumping{
         display: flex;
@@ -1984,6 +2292,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .rafting-menu{
         display: flex;
         flex-direction: column;
@@ -1995,6 +2313,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: rafting;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-rafting{
         display: flex;
@@ -2007,6 +2330,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes rafting {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .escalar-menu{
         display: flex;
         flex-direction: column;
@@ -2018,6 +2351,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-escalar{
         display: flex;
@@ -2030,6 +2368,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .momias-menu{
         display: flex;
         flex-direction: column;
@@ -2041,6 +2389,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-momias{
         display: flex;
@@ -2053,6 +2406,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .tren-menu{
         display: flex;
         flex-direction: column;
@@ -2064,6 +2427,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tren;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-tren{
         display: flex;
@@ -2076,6 +2444,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tren {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .vinos-menu{
         display: flex;
         flex-direction: column;
@@ -2087,6 +2465,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-vinos{
         display: flex;
@@ -2099,6 +2482,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .comparsa-menu{
         display: flex;
         flex-direction: column;
@@ -2110,6 +2503,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-comparsa{
         display: flex;
@@ -2122,6 +2520,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .pachamama-menu{
         display: flex;
         flex-direction: column;
@@ -2133,6 +2541,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: pachamama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-pachamama{
         display: flex;
@@ -2145,6 +2558,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes pachamama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .milagro-menu{
         display: flex;
         flex-direction: column;
@@ -2156,6 +2579,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-milagro{
         display: flex;
@@ -2168,6 +2596,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }  
     .balderrama-menu{
         display: flex;
         flex-direction: column;
@@ -2179,6 +2617,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: balderrama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-balderrama{
         display: flex;
@@ -2190,6 +2633,16 @@ header img {
         width: 100%;
         text-align: center;
         padding: 50px;
+    }
+    @keyframes balderrama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
     }
 
 
@@ -2227,6 +2680,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
 
     .imagen-nuevedejulio {
@@ -2240,6 +2698,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .mercado-menu{
         display: flex;
         flex-direction: column;
@@ -2251,6 +2719,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: mercado;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);   
     }
     .imagen-mercado{
         display: flex;
@@ -2263,6 +2736,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes mercado {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .parque-menu{
         display: flex;
         flex-direction: column;
@@ -2274,6 +2757,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-parque{
         display: flex;
@@ -2286,6 +2774,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .san-lorenzo-menu{
         display: flex;
         flex-direction: column;
@@ -2297,7 +2795,13 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: inicio;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
+    
     .imagen-quebrada{
         display: flex;
         width: 70%;
@@ -2308,6 +2812,16 @@ header img {
         width: 100%;
         text-align: center;
         padding: 50px;
+    }
+    @keyframes inicio {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
     }
     .san-lorenzo-paseo{
         display: flex;
@@ -2320,6 +2834,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: san-lorenzo;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-paseo{
         display: flex;
@@ -2332,6 +2851,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes san-lorenzo {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .jumping-menu{
         display: flex;
         flex-direction: column;
@@ -2343,6 +2872,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-jumping{
         display: flex;
@@ -2355,6 +2889,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .rafting-menu{
         display: flex;
         flex-direction: column;
@@ -2366,6 +2910,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: rafting;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-rafting{
         display: flex;
@@ -2378,6 +2927,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes rafting {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .escalar-menu{
         display: flex;
         flex-direction: column;
@@ -2389,6 +2948,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: deportes;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-escalar{
         display: flex;
@@ -2401,6 +2965,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes deportes {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .momias-menu{
         display: flex;
         flex-direction: column;
@@ -2412,6 +2986,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-momias{
         display: flex;
@@ -2424,6 +3003,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .tren-menu{
         display: flex;
         flex-direction: column;
@@ -2435,6 +3024,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tren;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-tren{
         display: flex;
@@ -2447,6 +3041,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tren {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .vinos-menu{
         display: flex;
         flex-direction: column;
@@ -2458,6 +3062,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: historia;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-vinos{
         display: flex;
@@ -2470,6 +3079,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes historia {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .comparsa-menu{
         display: flex;
         flex-direction: column;
@@ -2481,6 +3100,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-comparsa{
         display: flex;
@@ -2493,6 +3117,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .pachamama-menu{
         display: flex;
         flex-direction: column;
@@ -2504,6 +3138,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: pachamama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-pachamama{
         display: flex;
@@ -2516,6 +3155,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes pachamama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .milagro-menu{
         display: flex;
         flex-direction: column;
@@ -2527,6 +3176,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: tradiciones;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-milagro{
         display: flex;
@@ -2539,6 +3193,16 @@ header img {
         text-align: center;
         padding: 50px;
     }
+    @keyframes tradiciones {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
     .balderrama-menu{
         display: flex;
         flex-direction: column;
@@ -2550,6 +3214,11 @@ header img {
         gap: 30px;
         transition: 0.4s;
         border-radius: 8px;
+        animation-name: balderrama;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        transform: translateY(0);
     }
     .imagen-balderrama{
         display: flex;
@@ -2561,6 +3230,16 @@ header img {
         width: 100%;
         text-align: center;
         padding: 50px;
+    }
+    @keyframes balderrama {
+        0% {
+            transform: translateY(150%);
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
     }
 
 
